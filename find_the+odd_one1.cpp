@@ -1,6 +1,8 @@
 //efficient solution
 //using Xor property 
 //complexity : o(n)
+//isme ye hohga ki ek baar hisaab barabar ho jayega or dusri baar mai zero phir agar odd numnber mai aaya to wohi number print kr dega
+
 #include<iostream>
 using namespace std;
 

@@ -1,11 +1,12 @@
 //naive solution 
+//find the odd two(here two numbers appers odd number of times)
 //complexity : o(n^2) times 
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
 
-int numberIsOdd(int arr[],int n){
+void numberIsOdd(int arr[],int n){
 
         for(int i =0;i<n;i++){
         int count = 0;
@@ -15,16 +16,16 @@ int numberIsOdd(int arr[],int n){
             
         }
         if(count%2 != 0)
-           return arr[i];
+           cout<<arr[i]<<" ";
         
     }
 }
 
 int main() {
-    int n=9;
+    int n=8;
   
-    int arr[] = {5,5,8,8,8,8,11,11,11};
-    cout<<numberIsOdd(arr,n);
+    int arr[] = {5,5,8,8,8,11,11,11};
+    numberIsOdd(arr,n);
 
     return 0;
 }
