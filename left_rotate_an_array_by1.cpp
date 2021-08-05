@@ -7,8 +7,9 @@ void moveToEnd1(int arr[],int n){
     for (int i = 1; i < n; i++)
     {
         arr[i-1]=arr[i];
-        arr[n-1]=temp;
+       
     }
+     arr[n-1]=temp;
     
 }
 int main()
@@ -22,7 +23,7 @@ int main()
         cout << arr[i] << " ";
     }
     cout << endl;
-    moveToEndBy1(arr, n);
+    moveToEnd1(arr, n);
     cout << "After move to end:";
     for (int i = 0; i < n; i++)
     {
