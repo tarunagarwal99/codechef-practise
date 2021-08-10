@@ -12,7 +12,7 @@ int max_even_odd(int arr[], int n)
     for (int i = 1; i < n; i++)
     {
 
-        if ((arr[i] % 2 == 0 && arr[i - 1] % 2 != 0) || (arr[i] % 2 != 0 && arr[i - 1] == 0))
+        if ((arr[i] % 2 == 0 && arr[i - 1] % 2 != 0) || (arr[i] % 2 != 0 && arr[i - 1]%2 == 0))
         {
             curr++;
             res = max(res, curr);
