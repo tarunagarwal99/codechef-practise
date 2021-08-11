@@ -1,3 +1,7 @@
+//naive solution
+//tc:o(n^2)
+//auxi space:o(1)
+
 #include <iostream>
 #include <cmath>
 using namespace std;
